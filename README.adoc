@@ -1,0 +1,102 @@
+= Keycloak Mockups Shape Library for draw.io
+:author: Urs Roesch
+:imagesdir: images
+:_thumb: width='120', role='thumb left related'
+:app-url: https://app.diagrams.net/?splash=0&clibs=U
+:repo-urlenc: https:%2F%2Fraw.githubusercontent.com%2Furoesch%2Fdrawio-lib-mockup-keycloak
+:lib-urlenc: {repo-urlenc}%2Fmain%2Flibs%2Fmockups-keycloak.xml
+:repo-url: https://raw.githubusercontent.com/uroesch/drawio-lib-mockup-keycloak
+:lib-url: {repo-url}/main/libs/mockups-keycloak.xml
+
+This is an extension for to create https://www.keycloak.org/[Keycloak] mockups 
+that integrate seamlessly into mockup shapes included with the
+https://www.diagrams.net/[draw.io] application.
+
+== Usage
+
+=== Start app.diagrams.net with keycloak mockkup library
+
+Simply click on the {app-url}{lib-urlenc}[Mockup - Keycloak, window="_blank"] link to load
+the library into the online version.
+
+
+=== Import manually into app.diagrams.net 
+
+Navigate to the `File` menu and select `Choose Library...` in the flyout pick
+`URL...`. In the dialog paste the this url {lib-url}
+
+=== Import manually into locally running app
+
+. Download the library from {lib-url}.
+. Navigate to the `File` menu and select `Choose Library...` in the file picker
+  dialog select the previously downloaded file.
+
+== Shapes
+
+There are three type of stencils / shapes included in this library.
+
+. Forms: These are they actual forms that can be placed in windows frames.
+. Windows: Generally forms with windows and keycloak logos around them.
+. Logos: Keycloak logos which can be placed in windows.
+
+
+=== Forms 
+
+// [horizontal]
+Register (full)::
+image:form-kc-register-full.png[{_thumb}, title="keycloak registration full"] 
+
+Register (short)::
+image:form-kc-register-short.png[{_thumb}, title="keycloak registration short"]
+
+Sign in (simple)::
+image:form-kc-signin-simple.png[{_thumb}, title="keycloak sign in"]
+
+Sign in (register)::
+image:form-kc-signin-register.png[{_thumb}, title="keycloak sign in w/ register"]
+
+OTP setup::
+image:form-kc-otp-setup.png[{_thumb}, title="keycloak OTP setup"]
+
+Second factor::
+image:form-kc-2factor.png[{_thumb}, title="keycloak second factor"]
+
+=== Windows
+
+Empty window::
+image:window-kc-empty.png[{_thumb}, title="empty window"]
+
+Keycloak window::
+image:window-kc-logo.png[{_thumb}, title="keycloak window"]
+
+Keycloak window with realm::
+image:window-kc-realm.png[{_thumb}, title="keycloak window with realm"]
+
+Email client with registration mail::
+image:window-email-client.png[{_thumb}, title="email client with registration mail"]
+
+Keycloak window registration success::
+image:window-kc-success.png[{_thumb}, title="keycloak registration success"]
+
+Keycloak window registration form::
+image:window-kc-register.png[{_thumb}, title="keycloak window registration form"]
+
+Keycloak window admin sign in::
+image:window-kc-signin-admin.png[{_thumb}, title="keycloak window admin sign in"]
+
+Keycloak window user sign in::
+image:window-kc-signin-realm.png[{_thumb}, title="keycloak window user sign in"]
+
+Keycloak window OTP setup::
+image:window-kc-otp-setup.png[{_thumb}, title="keycloak window OTP setup"]
+
+Keycloak window second factor::
+image:window-kc-signin-2factor.png[{_thumb}, title="keycloak window second factor"]
+
+=== Logos
+
+Keycloak simplified logo::
+image:logo-keycloak.png[{_thumb}, title="keycloak simplified logo"]
+
+
+// vim: set textwidth=80 :
